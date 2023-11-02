@@ -1,6 +1,6 @@
 import 'extensions.dart';
 
-class Pattern extends Object with Comparable<Pattern> {
+class Pattern extends Object implements Comparable<Pattern> {
   Pattern._(
     this._pattern,
     this._levels,
